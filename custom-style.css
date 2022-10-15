@@ -1,12 +1,12 @@
 
-@media (min-width: 290px) and (max-width: 479px){
+@media screen and (max-width: 479px){
   .app-metaverse{
-    min-height: 100px !important;
+    min-height: 100px;
   }
 }
 @media (min-width: 480px) and (max-width: 768px){
   .app-metaverse{
-    min-height: 187px !important;
+    min-height: 187px;
   }
 .main-roadmap-graphic {
     position: unset !important;
@@ -141,6 +141,17 @@
       filter: blur(69px);
    }
   }
+
+
+
+
+
+
+
+
+
+
+
   html, body{
   	overflow-x:hidden;
     max-width:1920px;
