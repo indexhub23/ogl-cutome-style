@@ -1,5 +1,13 @@
 
-@media (min-width: 375px) and (max-width: 768px){
+@media screen and (max-width: 290px){
+  .app-metaverse{
+    min-height: 100px;
+  }
+}
+@media (min-width: 291px) and (max-width: 768px){
+  .app-metaverse{
+    min-height: 187px;
+  }
 .main-roadmap-graphic {
     position: unset !important;
     transform: unset !important;
