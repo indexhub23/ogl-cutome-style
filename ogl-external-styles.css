@@ -402,9 +402,9 @@
     bottom: 50px;
     transform: rotate(90deg);
   }
-  .section-4.app-section.metaverse {
+/*   .section-4.app-section.metaverse {
     max-width: 100% !important;
-  }
+  } */
   .margin-appsection{
     max-width: 1200px;
   }
