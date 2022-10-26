@@ -7,6 +7,9 @@
 .hero-split {
     margin-bottom: 0;
 }
+.story-context-active{
+	background-size: cover !important;
+}
   .read-more-off{
 		display: inline-block;
     word-wrap: break-word;
