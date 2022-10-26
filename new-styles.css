@@ -327,6 +327,16 @@
     position: absolute;
     z-index: 1;
   }
+  .grid-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .grid-2 .div-block-35 {
+    margin-right: auto;
+    margin-left: auto;
+  }
   #story:before{
     background-image: url("../images/elements-1.png");
     height: 437px;
