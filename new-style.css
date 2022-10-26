@@ -332,10 +332,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
   }
   .grid-2 .div-block-35 {
     margin-right: auto;
     margin-left: auto;
+  }
+  .div-block-38 {
+    padding-left: 0;
+  }
+  .div-block-35, .div-block-36, .div-block-34{
+    margin-left: unset !important;
+    margin-right: unset !important;
+    width: 100%;
+  }
+  .div-block-38, .div-block-37, .div-block-39 {
+    max-width: 320px;
+    min-width: unset;
+    padding-left: 0;
+  }
+  .lightbox-link-4.sampleng{
+    margin-right: 0;
   }
   #story:before{
     background-image: url("../images/elements-1.png");
