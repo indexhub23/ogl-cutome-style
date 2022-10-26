@@ -460,6 +460,11 @@
 	width: 100%;
     	margin: auto;
 	}
+.heading-banner-2.theme-color {
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+	}
  }
   @media (min-width: 768px) and (max-width: 991px) {
     .container-2 {
