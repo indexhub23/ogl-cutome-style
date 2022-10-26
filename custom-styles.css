@@ -354,6 +354,8 @@
   .lightbox-link-4.sampleng{
     margin-right: 0;
   }
+  .div-block-13:hover {
+    background-image: unset}
   #story:before{
     background-image: url("../images/elements-1.png");
     height: 437px;
