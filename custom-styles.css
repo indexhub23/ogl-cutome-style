@@ -1,3 +1,9 @@
+
+
+
+
+
+
 @media (min-width: 280px) and (max-width: 767px) {
   .container-2 {
     position: relative;
@@ -319,7 +325,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
   }
   #story:before{
     background-image: url("../images/elements-1.png");
@@ -988,7 +994,23 @@
   .div-block-15 {
     padding: 0px 30px 10px;
     position: relative;
-    top: -15px;
+    top: 13px;
+  }
+  .app-subtext {
+    top: 0px !important;
+  }
+  .main-roadmap-graphic div .content {
+    width: 274px !important;
+    height: 170px !important;
+  }
+  .main-roadmap-graphic {
+    max-width: 900px;
+  }
+  .top-title-text-5.opp-context {
+    padding-top: 6PX;
+    line-height: 29px;
+    font-size: 41px;
+    padding-left: 35px;
   }
   .app-subtext h2{
     line-height: 24px;
