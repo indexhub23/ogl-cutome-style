@@ -2,7 +2,11 @@
   .container-2 {
     position: relative;
     z-index: 2;
+	max-width: 375px;
   }
+.hero-split {
+    margin-bottom: 0;
+}
   .read-more-off{
 		display: inline-block;
     word-wrap: break-word;
