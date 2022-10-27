@@ -497,6 +497,62 @@
 .container.center.header-center {
     margin: auto;
 }
+
+
+
+
+#connector .wrapper-section {
+  display: flex;
+  width: auto;
+  height: 1250px;
+  max-width: none;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-position: 50% 19%;
+  background-size: contain;
+  overflow: visible;
+}
+.oppprtunity {
+  margin-bottom: 60px;
+}
+.banner:before {
+  content: "";
+  background: linear-gradient(360deg, #1a1b3e 0%, transparent 70%);
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+  height: 600px;
+}
+.container.center {
+  position: absolute;
+  top: 71%;
+}
+.text-block-6.advisor-name {
+  margin-bottom: 13px;
+  color: #fff;
+  font-size: 20px;
+}
+.container.center.header-center{
+  position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  }
   @media (min-width: 768px) and (max-width: 991px) {
     .main-roadmap-graphic {
@@ -996,7 +1052,51 @@
     .div-block-22{
       z-index: 2;
     }
-
+    #connector .wrapper-section {
+      display: flex;
+      width: auto;
+      height: 1250px;
+      max-width: none;
+      margin-right: auto;
+      margin-left: auto;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-position: 50% 19%;
+      background-size: contain;
+      overflow: visible;
+    }
+    .oppprtunity {
+      margin-bottom: 60px;
+    }
+    .banner:before {
+      content: "";
+      background: linear-gradient(360deg, #1a1b3e 0%, transparent 70%);
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      bottom: 0;
+      height: 600px;
+    }
+    .container.center {
+      position: absolute;
+      top: 71%;
+    }
+    .text-block-6.advisor-name {
+      margin-bottom: 13px;
+      color: #fff;
+      font-size: 20px;
+    }
   }
   @media (min-width: 992px) and (max-width: 1199px){
     .container.center {
@@ -1632,9 +1732,64 @@
       width: 79%;
       margin: auto;
     }
+    .footer-wrapper {
+      width: 100% !important;
+    }
+    .div-block-5 {
+      margin: auto;
+      max-width: 900px !important;
+    }
+    .w-slider-arrow-left img, .w-slider-arrow-right img{
+      max-width: 65%;
+    }
+    .w-slider-arrow-left{
+      display: flex;
+      justify-content: flex-start;
+    }
+    .w-slider-arrow-right{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .banner {
+      height: 586px;
+    }
+    .container.center {
+      top: 60%;
+    }
+    .hero-wrapper{
+      max-width: 950px;
+    }
+    .button-4.readmore.read {
+      font-size: 17px;
+    }
+    .section-3 {
+      background-image: url(../images/metaverse-bg.png);
+      background-position: 50% 50%;
+      background-size: contain;
+    }
+    .div-block-32 {
+      top: 290px;
+      position: absolute;
+    }
+    .image-10 {
+      top: 190px;
+      left: 0;
+    }
+    #connector .wrapper-section {
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+      position: relative;
+    }
+    .div-block-32 {
+      max-width: 900px;
+    }
+    .image-52 {
+      width: 70%;
+    }
   }
 
-@media (min-width: 1200px) and (max-width: 1919px) {
+@media (min-width: 1200px) and (max-width: 1890px) {
   .container.center {
     max-width: 1200px;
 }
@@ -2105,7 +2260,8 @@
     margin-bottom: 230px;
   }
   .div-block-32 {
-    top: 320px;
+    top: 240px;
+    position: absolute;
   }
   .div-block-13 {
     height: 135px;
@@ -2126,9 +2282,33 @@
   .text-block-6.advisors-subtext {
     font-size: 14px;
   }
+  .banner {
+    height: 586px;
+  }
+  .container.center {
+    top: 60%;
+  }
+  .section-3 {
+    background-image: url(../images/metaverse-bg.png);
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  #connector .wrapper-section{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+  }
+  .footer-wrapper {
+    width: 100% !important;
+  }
+  .div-block-5 {
+    margin: auto;
+    max-width: 1100px !important;
+  }
 }
 
-@media (min-width: 1920px){
+@media (min-width: 1891px) and (max-width: 1920px){
   .banner:before{
     bottom: 0;
     height: 200px;
@@ -2539,10 +2719,500 @@
   }
 }
 
+@media (min-width: 1921px){
+  .banner:before{
+    bottom: 0;
+    height: 200px;
+  }
+  .banner:after{
+    width: 751px;
+    right: -195px;
+    bottom: -86px;
+    filter: blur(69px);
+  }
+  .container-2 {
+    position: relative;
+    z-index: 1;
+  }
+  .read-more-off{
+		display: inline-block;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+  .toggleactive{
+    display: inline-block !important;
+  }
+  .story-context-active{
+    max-width: 100% !important;
+    min-height: 544px !important;
+    transition: 400ms ease !important;
+  }
+  .hidden{
+      display:none;
+  }
+  html body .main-team {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 500px !important;
+    font-family: monospace;
+    color: white;
+  }
+  html body .main-team * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html body .main-team-body-carousel .owl-stage-outer {
+    padding: 50px 0px;
+  }
+  html body .main-team-body-carousel .owl-item.center .main-team-body-carousel-item .main-team-body-carousel-item-inner {
+    transform: rotateY(180deg);
+  }
+  html body .main-team-body-carousel-item {
+    width: 290px;
+    height: 400px;
+    position: relative;
+    perspective: 1000px;
+  }
+  html body .main-team-body-carousel-item-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  html body .main-team-body-carousel-item-inner-front img {
+    position: absolute;
+    width: 230px !important;
+    height: 265px !important;
+    box-sizing: border-box;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+  html body .main-team-body-carousel-item-inner-front-text {
+    border: solid 3px white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 40px 0px;
+    gap: 10px;
+  }
+  html body .main-team-body-carousel-item-inner-front-text h3 {
+    font-size: 23px;
+    text-transform: uppercase;
+  }
+  html body .main-team-body-carousel-item-inner-front-text p {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  html body .main-team-body-carousel-item-inner-back {
+    transform: rotateY(180deg);
+    position: relative;
+  }
+  html body .main-team-body-carousel-item-inner-back-head {
+    border: solid 3px white;
+    border-bottom: solid 3px black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 230px;
+    height: 53px;
+    padding: 10px;
+    z-index: 10;
+  }
+  html body .main-team-body-carousel-item-inner-back-head h3 {
+    font-size: 20px;
+  }
+  html body .main-team-body-carousel-item-inner-back-head p {
+    font-size: 15px;
+  }
+  html body .main-team-body-carousel-item-inner-back-text {
+    border: solid 3px white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 10px;
+  }
+  html body .main-team-body-carousel-item-inner-back-text p {
+    font-size: 14px;
+  }
+  html body .main-team-body-carousel-item-inner-front, html body .main-team-body-carousel-item-inner-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  /*# sourceMappingURL=home.css.map */
+  .main-roadmap-graphic {
+    top: 65%;
+  }
+  html body .main-team-body-carousel-item-inner-back-text, html body .main-team-body-carousel-item-inner-back-head, html body .main-team-body-carousel-item-inner-front-text{
+    border:none;
+  }
+  .main-team-body-carousel-item-inner-back{
+    background: url("https://uploads-ssl.webflow.com/6344c9131791d85f89745f7e/634d81d297320cc52f449f97_Union.png");
+    background-repeat:no-repeat;
+  }
+  .main-team-body-carousel-item-inner-front{
+    background: url("https://uploads-ssl.webflow.com/6344c9131791d85f89745f7e/634d81d297320cc52f449f97_Union.png");
+    background-repeat:no-repeat;
+  }
+  .hero-active #read-more:before{
+    display:block;
+    content:"READ LESS" !important;
+  }
+  #read-more:before{
+    display:block;
+    content:"READ MORE";
+  }
+  .disabled-button{
+    filter: grayscale(100%);
+  }
+  .main-roadmap-graphic div .content h2, html body .main-team{
+    font-family: Rajdhani, sans-serif;
+    font-size: 35px;
+  }
+  .main-roadmap-graphic div .content ul li{
+    font-family: Rajdhani, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  html body .main-team-body-carousel-item-inner-back-text p {
+    font-size: 18px;
+  }
+  .icons img{
+    filter: grayscale(100%);
+  }
+  .icons img:hover{
+    filter: none;
+  }
+  /* additional-code for the rest of the website */
+  /* for navigator */
+  #navbar-logo-left{
+    height: 80px;
+    background-color: transparent;
+  }
+  #navbar-logo-left:after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 1px;
+    transition: width 0.3s;
+    margin: 0;
+    border-top: 0;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    opacity: .3;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0) 0%, #ffffff 20%, #FFF 50%, #ffffff 80%, rgba(0, 212, 255, 0) 100%);
+  }
+  #navbar-logo-left:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    filter: blur(2px);
+  }
+  .scale-down-padd{
+    height: 70px !important;
+  }
+  #navbar-logo-left, .navbar-brand, ul .list-item-6 a, .owl-item{
+    transition: 400ms ease !important;
+  }
+  .solid-color{
+    background-color: #0D0F20 !important;
+  }
+  .navbar-brand{
+    transform-origin: left top;
+    transform: scale(1) !important;
+  }
+  .logo-scale-down{
+    transform: scale(0.9) !important;
+  }
+  .navbar-logo-left-container.shadow-three{
+    padding: 0;
+  }
+  /* link highlight */
+  ul .list-item-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul .list-item-6 a{
+    position: relative;
+    padding: 30px 10px;
+  }
+  ul .list-item-6 .active:before, ul .list-item-6 a:hover:before{
+    height: 100%;
+  }
+  ul .list-item-6 a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: height 0.25s ease-out;
+    background: linear-gradient(to bottom, #2274FF 0%, transparent 100%);
+    opacity: 0.3;
+    z-index: 10;
+  }
+  ul .list-item-6 .active:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #0d6efd;
+    transition: width .3s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  .revert-padding{
+    padding: 25px 10px !important;
+  }
+  .anim{
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .icons .animate{
+    -webkit-animation: bottom 0.8s var(--delay) both;
+    animation: bottom 0.8s var(--delay) both;
+  }
+  .header-enter, .header-multiverse, .subtext, .pri-btn, .div-block-35, .div-block-34, .trailler-text{
+    transition: opacity var(--delay) ease, transform var(--delay) ease;
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  .div-block-36, .card, .trailler{
+    transition: opacity var(--delay) ease, transform var(--delay) ease;
+      transform: translateX(100px);
+      opacity: 0;
+  }
+  .client-logo-2, .app-container{
+    transition: opacity var(--delay) ease, transform var(--delay) ease;
+      transform: translateY(100px);
+      opacity: 0;
+  }
+  .owl-item:hover, .card:hover{
+    transform: scale(1.07);
+    transform-origin: bottom;
+  }
+  .nav-home-hide{
+    opacity: 0;
+  }
+  /* elements design */
+  #story, .section-4, .oppprtunity, .section-6, .main-roadmap, .section-9, .bth-section, .section-5{
+    position: relative;
+  }
+  #story:before, #connector:before, .oppprtunity:before, .oppprtunity:after, .metaverse:before, .metaverse:after, .section-6:after, .main-roadmap:before, .section-9:before, .bth-section:after, .section-5:after{
+    content: "";
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+  }
+  #story:before{
+    background-image: url("../images/elements-1.png");
+    height: 437px;
+    width: 252.67px;
+    left: 0;
+    bottom: 0;
+  }
+  #connector:before{
+    background-image: url("../images/elements-2.png");
+    height: 100px;
+    width: 252.67px;
+    left: 100px;
+    bottom: 0;
+  }
+  .oppprtunity:before{
+    background-image: url("../images/elements-3.png");
+    height: 100px;
+    width: 252.67px;
+    right: 0;
+    top: -50px;
+  }
+  .oppprtunity:after, .bth-section:after{
+    background-image: url("../images/elements-2.png");
+    height: 100px;
+    width: 252.67px;
+    right: -250px;
+    bottom: -50px;
+    transform: rotate(90deg);
+  }
+  .metaverse:before{
+    background-image: url("../images/elements-3.png");
+    height: 100px;
+    width: 252.67px;
+    right: 122px;
+    top: 250px;
+    transform: rotate(90deg);
+  }
+  .metaverse:after{
+    background-image: url("../images/elements-4.png");
+    height: 532.34px;
+    width: 1920px;
+    bottom: -50px;
+    transform-origin: left top;
+    z-index: 0 !important;
+  }
+  .section-6:after{
+    background-image: url("../images/elements-4.png");
+    height: 532.34px;
+    width: 1920px;
+    bottom: -50px;
+    transform-origin: left top;
+    z-index: 0 !important;
+  }
+  .main-roadmap:before{
+    background-image: url("../images/elements-5.png");
+    height: 440.34px;
+    width: 100px;
+    left: -260px;
+    bottom: -50px;
+    transform-origin: left top;
+    z-index: 0 !important;
+  }
+  .section-9:before{
+    background-image: url("../images/elements-6.png");
+    height: 440.34px;
+    width: 100px;
+    right: -308px;
+    bottom: -50px;
+    transform-origin: left top;
+    z-index: 0 !important;
+  }
+  .section-5:after{
+    background-image: url("../images/elements-2.png");
+    height: 100px;
+    width: 252.67px;
+    left: -250px;
+    bottom: 50px;
+    transform: rotate(90deg);
+  }
+  .section-4.app-section.metaverse {
+    max-width: 100% !important;
+  }
+  .margin-appsection{
+    max-width: 1200px;
+  }
+  .hero-split.story-context {
+    background-size: contain;
+  }
+  
+  /* ultra wide screen and for highresolution */
+.wrapper-section, #connector .wrapper-section, .footer-wrapper{
+  max-width: 1920px;
+  margin: auto;
+}
+.image-10{
+  display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 133px;
+}
+#connector:after {
+  content: "";
+  background: linear-gradient(360deg, #1a1b3e 0%, transparent 90%);
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+  height: 200px;
+}
+.section-3 {
+  position: relative;
+  background-size: contain;
+}
+.div-block-32 {
+  top: 204px !important;
+}
+#connector .wrapper-section{
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.section-3 {
+  position: relative;
+  overflow: visible;
+  height: 1500px;
+  background-image: url(../images/metaverse-bg.png);
+  background-position: 50% 142%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+.image-12 {
+  height: auto;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.footer-wrapper{
+  display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.section-2{
+  width: 100% !important;
+  max-width: none;
+}
+.section-6 {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-image: none;
+}
+}
+
+
+
+
+
 /* roadmap */
 html, body{
   overflow-x:hidden;
-  max-width:1920px;
+  max-width:100%;
   margin:auto;
 }
 body{
