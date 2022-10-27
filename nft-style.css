@@ -1,0 +1,929 @@
+@media (min-width: 280px) and (max-width: 767px){
+  .container-2 {
+    position: relative;
+    z-index: 1;
+  }
+  .hidden{
+      display:none;
+  }
+  .hero-section{
+    max-width: 1100px;
+  }
+  .container {
+    width: 100%;
+  }
+  .nft-container.slaying {
+    font-size: 20px;
+  }
+  .nft-container.nft-gradient, .nft-container{
+    font-size: 20px;
+  }
+  .heading-banner-3 {
+    font-size: 40px;
+  }
+  .subtext-4.new-subtext.subtext-title {
+    font-size: 25px;
+  }
+  /* additional-code for the rest of the website */
+  /* for navigator */
+  #navbar-logo-left{
+    height: 80px;
+    background-color: transparent;
+  }
+  #navbar-logo-left:after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 1px;
+    transition: width 0.3s;
+    margin: 0;
+    border-top: 0;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    opacity: .3;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0) 0%, #ffffff 20%, #FFF 50%, #ffffff 80%, rgba(0, 212, 255, 0) 100%);
+  }
+  #navbar-logo-left:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    filter: blur(2px);
+  }
+  .scale-down-padd{
+    height: 70px !important;
+  }
+  #navbar-logo-left, .navbar-brand, ul .list-item-6 a, .owl-item{
+    transition: 400ms ease !important;
+  }
+  .solid-color{
+    background-color: #0D0F20 !important;
+  }
+  .navbar-brand{
+    transform-origin: left top;
+    transform: scale(1) !important;
+  }
+  .logo-scale-down{
+    transform: scale(0.9) !important;
+  }
+  .navbar-logo-left-container.shadow-three{
+    padding: 0;
+  }
+  /* link highlight */
+  ul .list-item-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul .list-item-6 a{
+    position: relative;
+    padding: 30px 10px;
+  }
+  ul .list-item-6 .active:before, ul .list-item-6 a:hover:before{
+    height: 100%;
+  }
+  ul .list-item-6 a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: height 0.25s ease-out;
+    background: linear-gradient(to bottom, #2274FF 0%, transparent 100%);
+    opacity: 0.3;
+    z-index: 10;
+  }
+  ul .list-item-6 .active:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #0d6efd;
+    transition: width .3s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  .revert-padding{
+    padding: 25px 10px !important;
+  }
+  .anim{
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .nav-home-hide{
+    opacity: 0;
+  }
+  /* elements design */
+  .section-4.app-section.metaverse {
+    max-width: 100% !important;
+  }
+  .margin-appsection{
+    max-width: 1200px;
+  }
+  .hero-split.story-context {
+    background-size: contain;
+  }
+  .carousel-fixed-item {
+    max-width: 1100px;
+    width: 100% !important;
+  }
+  .footer-wrapper{
+    display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      max-width: 1920px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+  }
+  .section-2{
+    width: 100% !important;
+    max-width: none;
+  }
+  .div-block-5 {
+    margin: auto;
+    max-width: 900px !important;
+  }
+  .text-block-7 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .image-52 {
+    width: 70%;
+  }
+  .button-4 {
+    padding: 27px 50px;
+  }
+  .nav-link.in-footer {
+    font-size: 17px;
+  }
+  .container.center {
+    z-index: 1;
+  }
+  .nft-container, .nft-container.nft-gradient {
+    line-height: 20px;
+  }
+  .dhb-text.space-text.gradient-text, .dhb-text {
+    font-size: 30px;
+  } 
+  .nft-container.slaying {
+    margin-bottom: 2px;
+  }
+  .div-block-44{
+    flex-direction: column;
+  }
+  .description{
+    max-width: 300px;
+  }
+  .div-block-40{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-52 {
+    margin: auto;
+  }
+  .carousel .carousel-item {
+    width: 240px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .container-2 {
+    position: relative;
+    z-index: 1;
+  }
+  .hidden{
+      display:none;
+  }
+  .hero-section{
+    max-width: 1100px;
+  }
+  .container {
+    width: 100%;
+  }
+  .nft-container.slaying {
+    font-size: 20px;
+  }
+  .nft-container.nft-gradient, .nft-container{
+    font-size: 20px;
+  }
+  .heading-banner-3 {
+    font-size: 40px;
+  }
+  .subtext-4.new-subtext.subtext-title {
+    font-size: 25px;
+  }
+  /* additional-code for the rest of the website */
+  /* for navigator */
+  #navbar-logo-left{
+    height: 80px;
+    background-color: transparent;
+  }
+  #navbar-logo-left:after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 1px;
+    transition: width 0.3s;
+    margin: 0;
+    border-top: 0;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    opacity: .3;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0) 0%, #ffffff 20%, #FFF 50%, #ffffff 80%, rgba(0, 212, 255, 0) 100%);
+  }
+  #navbar-logo-left:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    filter: blur(2px);
+  }
+  .scale-down-padd{
+    height: 70px !important;
+  }
+  #navbar-logo-left, .navbar-brand, ul .list-item-6 a, .owl-item{
+    transition: 400ms ease !important;
+  }
+  .solid-color{
+    background-color: #0D0F20 !important;
+  }
+  .navbar-brand{
+    transform-origin: left top;
+    transform: scale(1) !important;
+  }
+  .logo-scale-down{
+    transform: scale(0.9) !important;
+  }
+  .navbar-logo-left-container.shadow-three{
+    padding: 0;
+  }
+  /* link highlight */
+  ul .list-item-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul .list-item-6 a{
+    position: relative;
+    padding: 30px 10px;
+  }
+  ul .list-item-6 .active:before, ul .list-item-6 a:hover:before{
+    height: 100%;
+  }
+  ul .list-item-6 a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: height 0.25s ease-out;
+    background: linear-gradient(to bottom, #2274FF 0%, transparent 100%);
+    opacity: 0.3;
+    z-index: 10;
+  }
+  ul .list-item-6 .active:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #0d6efd;
+    transition: width .3s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  .revert-padding{
+    padding: 25px 10px !important;
+  }
+  .anim{
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .nav-home-hide{
+    opacity: 0;
+  }
+  /* elements design */
+  .section-4.app-section.metaverse {
+    max-width: 100% !important;
+  }
+  .margin-appsection{
+    max-width: 1200px;
+  }
+  .hero-split.story-context {
+    background-size: contain;
+  }
+  .carousel-fixed-item {
+    max-width: 1100px;
+    width: 100% !important;
+  }
+  .footer-wrapper{
+    display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      max-width: 1920px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+  }
+  .section-2{
+    width: 100% !important;
+    max-width: none;
+  }
+  .div-block-5 {
+    margin: auto;
+    max-width: 900px !important;
+  }
+  .text-block-7 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .image-52 {
+    width: 70%;
+  }
+  .button-4 {
+    padding: 27px 50px;
+  }
+  .nav-link.in-footer {
+    font-size: 17px;
+  }
+  .container.center {
+    z-index: 1;
+  }
+  .nft-container, .nft-container.nft-gradient {
+    line-height: 20px;
+  }
+  .dhb-text.space-text.gradient-text, .dhb-text {
+    font-size: 30px;
+  } 
+  .nft-container.slaying {
+    margin-bottom: 2px;
+  }
+  .div-block-44{
+    flex-direction: column;
+  }
+  .description{
+    max-width: 650px;
+  }
+  .div-block-40{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-52 {
+    margin: auto;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .container-2 {
+    position: relative;
+    z-index: 1;
+  }
+  .hidden{
+      display:none;
+  }
+  .hero-section{
+    max-width: 1100px;
+  }
+  .container {
+    width: 100%;
+  }
+  .nft-container.slaying {
+    font-size: 35px;
+  }
+  .nft-container.nft-gradient {
+    font-size: 35px;
+  }
+  .heading-banner-3 {
+    font-size: 50px;
+  }
+  /* additional-code for the rest of the website */
+  /* for navigator */
+  #navbar-logo-left{
+    height: 80px;
+    background-color: transparent;
+  }
+  #navbar-logo-left:after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 1px;
+    transition: width 0.3s;
+    margin: 0;
+    border-top: 0;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    opacity: .3;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0) 0%, #ffffff 20%, #FFF 50%, #ffffff 80%, rgba(0, 212, 255, 0) 100%);
+  }
+  #navbar-logo-left:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    filter: blur(2px);
+  }
+  .scale-down-padd{
+    height: 70px !important;
+  }
+  #navbar-logo-left, .navbar-brand, ul .list-item-6 a, .owl-item{
+    transition: 400ms ease !important;
+  }
+  .solid-color{
+    background-color: #0D0F20 !important;
+  }
+  .navbar-brand{
+    transform-origin: left top;
+    transform: scale(1) !important;
+  }
+  .logo-scale-down{
+    transform: scale(0.9) !important;
+  }
+  .navbar-logo-left-container.shadow-three{
+    padding: 0;
+  }
+  /* link highlight */
+  ul .list-item-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul .list-item-6 a{
+    position: relative;
+    padding: 30px 10px;
+  }
+  ul .list-item-6 .active:before, ul .list-item-6 a:hover:before{
+    height: 100%;
+  }
+  ul .list-item-6 a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: height 0.25s ease-out;
+    background: linear-gradient(to bottom, #2274FF 0%, transparent 100%);
+    opacity: 0.3;
+    z-index: 10;
+  }
+  ul .list-item-6 .active:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #0d6efd;
+    transition: width .3s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  .revert-padding{
+    padding: 25px 10px !important;
+  }
+  .anim{
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .nav-home-hide{
+    opacity: 0;
+  }
+  /* elements design */
+  .section-4.app-section.metaverse {
+    max-width: 100% !important;
+  }
+  .margin-appsection{
+    max-width: 1200px;
+  }
+  .hero-split.story-context {
+    background-size: contain;
+  }
+  .carousel-fixed-item {
+    max-width: 1100px;
+    width: 100% !important;
+  }
+  .footer-wrapper{
+    display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      max-width: 1920px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+  }
+  .section-2{
+    width: 100% !important;
+    max-width: none;
+  }
+  .div-block-5 {
+    margin: auto;
+    max-width: 900px !important;
+  }
+  .text-block-7 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .image-52 {
+    width: 70%;
+  }
+  .button-4 {
+    padding: 27px 50px;
+  }
+  .nav-link.in-footer {
+    font-size: 17px;
+  }
+  .container.center {
+    z-index: 1;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px){
+  .container-2 {
+    position: relative;
+    z-index: 1;
+  }
+  .hidden{
+      display:none;
+  }
+  .hero-section{
+    max-width: 1100px;
+  }
+  .container {
+    width: 100%;
+  }
+  .nft-container.slaying {
+    font-size: 35px;
+  }
+  .nft-container.nft-gradient {
+    font-size: 35px;
+  }
+  .heading-banner-3 {
+    font-size: 50px;
+  }
+  /* additional-code for the rest of the website */
+  /* for navigator */
+  #navbar-logo-left{
+    height: 80px;
+    background-color: transparent;
+  }
+  #navbar-logo-left:after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 1px;
+    transition: width 0.3s;
+    margin: 0;
+    border-top: 0;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    opacity: .3;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0) 0%, #ffffff 20%, #FFF 50%, #ffffff 80%, rgba(0, 212, 255, 0) 100%);
+  }
+  #navbar-logo-left:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    filter: blur(2px);
+  }
+  .scale-down-padd{
+    height: 70px !important;
+  }
+  #navbar-logo-left, .navbar-brand, ul .list-item-6 a, .owl-item{
+    transition: 400ms ease !important;
+  }
+  .solid-color{
+    background-color: #0D0F20 !important;
+  }
+  .navbar-brand{
+    transform-origin: left top;
+    transform: scale(1) !important;
+  }
+  .logo-scale-down{
+    transform: scale(0.9) !important;
+  }
+  .navbar-logo-left-container.shadow-three{
+    padding: 0;
+  }
+  /* link highlight */
+  ul .list-item-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul .list-item-6 a{
+    position: relative;
+    padding: 30px 10px;
+  }
+  ul .list-item-6 .active:before, ul .list-item-6 a:hover:before{
+    height: 100%;
+  }
+  ul .list-item-6 a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: height 0.25s ease-out;
+    background: linear-gradient(to bottom, #2274FF 0%, transparent 100%);
+    opacity: 0.3;
+    z-index: 10;
+  }
+  ul .list-item-6 .active:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #0d6efd;
+    transition: width .3s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  .revert-padding{
+    padding: 25px 10px !important;
+  }
+  .anim{
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .nav-home-hide{
+    opacity: 0;
+  }
+  /* elements design */
+  .section-4.app-section.metaverse {
+    max-width: 100% !important;
+  }
+  .margin-appsection{
+    max-width: 1200px;
+  }
+  .hero-split.story-context {
+    background-size: contain;
+  }
+  .carousel-fixed-item {
+    max-width: 1100px;
+    width: 100% !important;
+  }
+  .footer-wrapper{
+    display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      max-width: 1920px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+  }
+  .section-2{
+    width: 100% !important;
+    max-width: none;
+  }
+  .div-block-5 {
+    margin: auto;
+    max-width: 1100px !important;
+  }
+  .nav-link.in-footer {
+    font-size: 17px;
+  }
+  .container.center {
+    z-index: 1;
+  }
+}
+@media (min-width: 1920px){
+  .container-2 {
+    position: relative;
+    z-index: 1;
+  }
+  .hidden{
+      display:none;
+  }
+  
+  /* additional-code for the rest of the website */
+  /* for navigator */
+  #navbar-logo-left{
+    height: 80px;
+    background-color: transparent;
+  }
+  #navbar-logo-left:after{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 1px;
+    transition: width 0.3s;
+    margin: 0;
+    border-top: 0;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    opacity: .3;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 0) 0%, #ffffff 20%, #FFF 50%, #ffffff 80%, rgba(0, 212, 255, 0) 100%);
+  }
+  #navbar-logo-left:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    filter: blur(2px);
+  }
+  .scale-down-padd{
+    height: 70px !important;
+  }
+  #navbar-logo-left, .navbar-brand, ul .list-item-6 a, .owl-item{
+    transition: 400ms ease !important;
+  }
+  .solid-color{
+    background-color: #0D0F20 !important;
+  }
+  .navbar-brand{
+    transform-origin: left top;
+    transform: scale(1) !important;
+  }
+  .logo-scale-down{
+    transform: scale(0.9) !important;
+  }
+  .navbar-logo-left-container.shadow-three{
+    padding: 0;
+  }
+  /* link highlight */
+  ul .list-item-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul .list-item-6 a{
+    position: relative;
+    padding: 30px 10px;
+  }
+  ul .list-item-6 .active:before, ul .list-item-6 a:hover:before{
+    height: 100%;
+  }
+  ul .list-item-6 a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: height 0.25s ease-out;
+    background: linear-gradient(to bottom, #2274FF 0%, transparent 100%);
+    opacity: 0.3;
+    z-index: 10;
+  }
+  ul .list-item-6 .active:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #0d6efd;
+    transition: width .3s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  .revert-padding{
+    padding: 25px 10px !important;
+  }
+  .anim{
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .nav-home-hide{
+    opacity: 0;
+  }
+  /* elements design */
+  .section-4.app-section.metaverse {
+    max-width: 100% !important;
+  }
+  .margin-appsection{
+    max-width: 1200px;
+  }
+  .hero-split.story-context {
+    background-size: contain;
+  }
+  .carousel-fixed-item {
+    max-width: 1400px;
+    position: absolute;
+    left: 0px;
+    top: 47%;
+    right: 0px;
+    z-index: 999;
+    display: block;
+    width: 74%;
+    margin: auto;
+    height: auto;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+  .footer-wrapper{
+    display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      max-width: 1920px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+  }
+  .section-2{
+    width: 100% !important;
+    max-width: none;
+  }
+}
+/* roadmap */
+html, body{
+  overflow-x:hidden;
+  max-width:100%;
+  margin:auto;
+}
+body{
+  background-color: #151d41;
+}
+.container-2{
+  position:relative;
+  z-index: 1;
+}
+.Navbar{
+  z-index:10;
+}
+/* end of road map */
+.social-media:hover{
+  fill: #fff;
+}
+/* scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
