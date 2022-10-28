@@ -1068,6 +1068,9 @@ body{
 .Navbar{
   z-index:10;
 }
+.align-center-2 {
+    align-items: center;
+}
 /* end of road map */
 .social-media:hover{
   fill: #fff;
