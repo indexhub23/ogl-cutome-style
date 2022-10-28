@@ -12,17 +12,16 @@
   .container {
     width: 100%;
   }
-  .nft-container.slaying {
-    font-size: 20px;
+  .nft-container.slaying, .nft-container.space {
+    font-size: 35px;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 700;
   }
   .nft-container.nft-gradient, .nft-container{
-    font-size: 20px;
+    font-size: 35px;
   }
   .heading-banner-3 {
-    font-size: 40px;
-  }
-  .subtext-4.new-subtext.subtext-title {
-    font-size: 25px;
+    font-size: 35px;
   }
   /* additional-code for the rest of the website */
   /* for navigator */
@@ -176,7 +175,7 @@
     z-index: 1;
   }
   .nft-container, .nft-container.nft-gradient {
-    line-height: 20px;
+    line-height: 35px;
   }
   .dhb-text.space-text.gradient-text, .dhb-text {
     font-size: 30px;
@@ -202,6 +201,86 @@
   .carousel .carousel-item {
     width: 240px !important;
   }
+  .div-block-50{
+    width: 100%;
+  }
+  .div-block-43 {
+    flex-direction: column;
+  }
+  .container.center {
+    transform: translate(0px, 0%);
+  }
+  .heading-banner-3.theme-color, .heading-banner-3 {
+    font-size: 35px;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 35px;
+  }
+  .heading-banner-3{
+    margin-bottom: 13px;
+  }
+  .banner-second-2.hero-section {
+    margin-top: 0;
+    padding-top: 0px;
+  }
+  .div-block-44{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subtext-4 {
+    padding-bottom: 0;
+  }
+  .subtext-4.nft-subtext.subtext-title, .subtext-4.subtext-title, .subtext-4.new-subtext.subtext-title{
+    font-size: 20px;
+  }
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .section-context, .section-context-2{
+    min-height: 170px !important
+  }
+  .banner-2{
+    min-height: 900px;
+  }
+  .container.center {
+    top: 27%;
+    margin-bottom: 0px;
+  }
+  .hero-section{
+    overflow: visible;
+  }
+  .div-block-50 {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+  .ogl-subtext-club{
+    font-weight: 400 !important;
+  }
+  .subtext-4.new-subtext, .ogl-subtext-club, .dhb-text.no-margin{
+    font-size: 18px;
+  }
+  .subtext-4 {
+    line-height: 20px;
+  }
+  .banner-second-3.section-context-2{
+    margin-top: 0;
+    height: auto;
+    padding: 0;
+  }
+  .section-context-2 .container.center{
+    top: 0;
+    margin-top: 0;
+  }
+  .banner-second-2.section-context-2 {
+    padding-top: 0;
+    padding-bottom: 0px;
+    height: 170px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px){
   .container-2 {
@@ -221,7 +300,7 @@
     font-size: 20px;
   }
   .nft-container.nft-gradient, .nft-container{
-    font-size: 20px;
+    font-size: 40px;
   }
   .heading-banner-3 {
     font-size: 40px;
@@ -381,10 +460,10 @@
     z-index: 1;
   }
   .nft-container, .nft-container.nft-gradient {
-    line-height: 20px;
+    line-height: 30px;
   }
   .dhb-text.space-text.gradient-text, .dhb-text {
-    font-size: 30px;
+    font-size: 28px;
   } 
   .nft-container.slaying {
     margin-bottom: 2px;
@@ -404,6 +483,43 @@
   .image-52 {
     margin: auto;
   }
+  .banner-second-2.hero-section {
+    margin-top: 0;
+  }
+  .container.center {
+    top: 45%;
+  }
+  .banner-2 {
+    height: 1100px;
+  }
+  .div-block-43{
+    flex-direction: column;
+  }
+  .div-block-50{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .subtext-4 {
+    line-height: 35px;
+  }
+  .dhb-text.no-margin {
+    font-size: 20px;
+    font-weight: 500 !important;
+  }
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .heading-banner-3.theme-color {
+    font-size: 40px;
+  }
+  .heading-banner-3.theme-color{
+    font-size: unset;
+  }
+  .heading-banner-3{
+    margin-bottom: 10px;
+    font-size: 68px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px){
   .container-2 {
@@ -422,8 +538,8 @@
   .nft-container.slaying {
     font-size: 35px;
   }
-  .nft-container.nft-gradient {
-    font-size: 35px;
+  .nft-container.nft-gradient, .nft-container.slaying, .nft-container.space, .nft-container.nft-gradient {
+    font-size: 30px;
   }
   .heading-banner-3 {
     font-size: 50px;
@@ -578,6 +694,13 @@
   }
   .container.center {
     z-index: 1;
+  }
+  .subtext-4 {
+    line-height: 35px;
+  }
+  .nft-container.slaying, .nft-container.space, .nft-container.nft-gradient{
+    line-height: 25px;
+    font-weight: 700;
   }
 }
 @media (min-width: 1200px) and (max-width: 1919px){
@@ -744,8 +867,17 @@
   .container.center {
     z-index: 1;
   }
+  .subtext-4 {
+    line-height: 35px;
+  }
+  .nft-container.slaying, .nft-container.space{
+    font-weight: 700;
+  }
 }
 @media (min-width: 1920px){
+  .section-context, .section-context-2 {
+    height: 300px !important;
+  }
   .container-2 {
     position: relative;
     z-index: 1;
@@ -894,6 +1026,30 @@
   .section-2{
     width: 100% !important;
     max-width: none;
+  }
+  .image-49{
+    max-width: 1200px;
+  }
+  .container {
+    width: 100%;
+  }
+  .subtext-4 {
+    line-height: 40px;
+  }
+  .nft-container.slaying, .nft-container.space{
+    font-weight: 700;
+  }
+  .nft-container.nft-gradient{
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .subtext-4.new-subtext.subtext-title {
+    font-size: 37px;
+    width: 70%;
+    margin: auto;
+  }
+  .carousel {
+    height: 600px;
   }
 }
 /* roadmap */
