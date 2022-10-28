@@ -1,4 +1,10 @@
 @media (min-width: 280px) and (max-width: 767px){
+  .align-center-4{
+    webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: center;
+  }
   .container-2 {
     position: relative;
     z-index: 1;
@@ -283,6 +289,12 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991px){
+  .align-center-4{
+    webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: center;
+  }
   .container-2 {
     position: relative;
     z-index: 1;
@@ -522,6 +534,12 @@
   }
 }
 @media (min-width: 992px) and (max-width: 1199px){
+  .align-center-4{
+    webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: center;
+  }
   .container-2 {
     position: relative;
     z-index: 1;
@@ -704,6 +722,12 @@
   }
 }
 @media (min-width: 1200px) and (max-width: 1919px){
+  .align-center-4{
+    webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: center;
+  }
   .container-2 {
     position: relative;
     z-index: 1;
@@ -875,6 +899,12 @@
   }
 }
 @media (min-width: 1920px){
+  .align-center-4{
+    webkit-box-align: start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: center;
+  }
   .section-context, .section-context-2 {
     height: 300px !important;
   }
