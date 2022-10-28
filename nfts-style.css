@@ -1068,8 +1068,8 @@ body{
 .Navbar{
   z-index:10;
 }
-.align-center-2 {
-    align-items: center !important;
+..align-center-4 {
+    align-items: center;
 }
 /* end of road map */
 .social-media:hover{
