@@ -359,28 +359,28 @@
     background-image: none !important;
   }
   #story:before{
-    background-image: url("../images/elements-1.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366516e125b7dd73a801d1f_elements-1.png");
     height: 437px;
     width: 212.67px;
     left: 0;
     bottom: 0;
   }
   #connector:before{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     left: 100px;
     bottom: 0;
   }
   .oppprtunity:before{
-    background-image: url("../images/elements-3.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
     height: 100px;
     width: 252.67px;
     right: 0;
     top: -50px;
   }
   .oppprtunity:after, .bth-section:after{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     right: -250px;
@@ -388,7 +388,7 @@
     transform: rotate(90deg);
   }
   .metaverse:before{
-    background-image: url(../images/elements-3.png);
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
     height: 100px;
     width: 152.67px;
     right: 0;
@@ -396,7 +396,7 @@
     transform: rotate(90deg);
   }
   .metaverse:after{
-    background-image: url("../images/elements-4.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
     height: 532.34px;
     width: 1100px;
     bottom: -50px;
@@ -404,7 +404,7 @@
     z-index: 0 !important;
   }
   .section-6:after{
-    background-image: url("../images/elements-4.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
     height: 532.34px;
     width: 1100px;
     bottom: -150px;
@@ -412,7 +412,7 @@
     z-index: 0 !important;
   }
   .main-roadmap:before{
-    background-image: url("../images/elements-5.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366582971d5e97a719ad502_elements-5.png");
     height: 440.34px;
     width: 100px;
     left: -260px;
@@ -421,7 +421,7 @@
     z-index: 0 !important;
   }
   .section-9:before{
-    background-image: url("../images/elements-6.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/63665a52bcb48576b2544056_elements-6.png");
     height: 440.34px;
     width: 100px;
     right: -308px;
@@ -430,7 +430,7 @@
     z-index: 0 !important;
   }
   .section-5:after{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     left: -250px;
@@ -937,28 +937,28 @@
       z-index: 1;
     }
     #story:before{
-      background-image: url("../images/elements-1.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366516e125b7dd73a801d1f_elements-1.png");
       height: 437px;
       width: 240px;
       left: 0;
       bottom: 0;
     }
     #connector:before{
-      background-image: url("../images/elements-2.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
       height: 100px;
       width: 200px;
       left: 20px;
       bottom: -120px;
     }
     .oppprtunity:before{
-      background-image: url("../images/elements-3.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
       height: 100px;
       width: 252.67px;
       right: 0;
       top: -50px;
     }
     .oppprtunity:after, .bth-section:after{
-      background-image: url("../images/elements-2.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
       height: 100px;
       width: 252.67px;
       right: -250px;
@@ -966,7 +966,7 @@
       transform: rotate(90deg);
     }
     .metaverse:before{
-      background-image: url("../images/elements-3.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
       height: 100px;
       width: 200px;
       right: 0;
@@ -974,7 +974,7 @@
       transform: rotate(90deg);
     }
     .metaverse:after{
-      background-image: url("../images/elements-4.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
       height: 532.34px;
       width: 1920px;
       bottom: -50px;
@@ -982,7 +982,7 @@
       z-index: 0 !important;
     }
     .section-6:after{
-      background-image: url("../images/elements-4.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
       height: 532.34px;
       width: 1920px;
       bottom: -50px;
@@ -990,7 +990,7 @@
       z-index: 0 !important;
     }
     .main-roadmap:before{
-      background-image: url("../images/elements-5.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366582971d5e97a719ad502_elements-5.png");
       height: 440.34px;
       width: 100px;
       left: -260px;
@@ -999,7 +999,7 @@
       z-index: 0 !important;
     }
     .section-9:before{
-      background-image: url("../images/elements-6.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/63665a52bcb48576b2544056_elements-6.png");
       height: 440.34px;
       width: 100px;
       right: -308px;
@@ -1008,7 +1008,7 @@
       z-index: 0 !important;
     }
     .section-5:after{
-      background-image: url("../images/elements-2.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
       height: 100px;
       width: 252.67px;
       left: -250px;
@@ -1502,28 +1502,28 @@
       z-index: 1;
     }
     #story:before{
-      background-image: url("../images/elements-1.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366516e125b7dd73a801d1f_elements-1.png");
       height: 437px;
       width: 252.67px;
       left: 0;
       bottom: 0;
     }
     #connector:before{
-      background-image: url("../images/elements-2.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
       height: 100px;
       width: 252.67px;
       left: 100px;
       bottom: 0;
     }
     .oppprtunity:before{
-      background-image: url("../images/elements-3.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
       height: 100px;
       width: 252.67px;
       right: 0;
       top: -50px;
     }
     .oppprtunity:after, .bth-section:after{
-      background-image: url("../images/elements-2.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
       height: 100px;
       width: 252.67px;
       right: -250px;
@@ -1531,7 +1531,7 @@
       transform: rotate(90deg);
     }
     .metaverse:before{
-      background-image: url("../images/elements-3.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
       height: 100px;
       width: 252.67px;
       right: 122px;
@@ -1539,7 +1539,7 @@
       transform: rotate(90deg);
     }
     .metaverse:after{
-      background-image: url("../images/elements-4.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
       height: 532.34px;
       width: 1920px;
       bottom: -50px;
@@ -1547,7 +1547,7 @@
       z-index: 0 !important;
     }
     .section-6:after{
-      background-image: url("../images/elements-4.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
       height: 532.34px;
       width: 1920px;
       bottom: -50px;
@@ -1555,7 +1555,7 @@
       z-index: 0 !important;
     }
     .main-roadmap:before{
-      background-image: url("../images/elements-5.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366582971d5e97a719ad502_elements-5.png");
       height: 440.34px;
       width: 100px;
       left: -260px;
@@ -1564,7 +1564,7 @@
       z-index: 0 !important;
     }
     .section-9:before{
-      background-image: url("../images/elements-6.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/63665a52bcb48576b2544056_elements-6.png");
       height: 440.34px;
       width: 100px;
       right: -308px;
@@ -1573,7 +1573,7 @@
       z-index: 0 !important;
     }
     .section-5:after{
-      background-image: url("../images/elements-2.png");
+      background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
       height: 100px;
       width: 252.67px;
       left: -250px;
@@ -2117,28 +2117,28 @@
     z-index: 1;
   }
   #story:before{
-    background-image: url("../images/elements-1.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366516e125b7dd73a801d1f_elements-1.png");
     height: 437px;
     width: 252.67px;
     left: 0;
     bottom: 0;
   }
   #connector:before{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     left: 100px;
     bottom: 0;
   }
   .oppprtunity:before{
-    background-image: url("../images/elements-3.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
     height: 100px;
     width: 252.67px;
     right: 0;
     top: -50px;
   }
   .oppprtunity:after, .bth-section:after{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     right: -250px;
@@ -2146,7 +2146,7 @@
     transform: rotate(90deg);
   }
   .metaverse:before{
-    background-image: url("../images/elements-3.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
     height: 100px;
     width: 252.67px;
     right: 122px;
@@ -2154,7 +2154,7 @@
     transform: rotate(90deg);
   }
   .metaverse:after{
-    background-image: url("../images/elements-4.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
     height: 532.34px;
     width: 1920px;
     bottom: -50px;
@@ -2162,7 +2162,7 @@
     z-index: 0 !important;
   }
   .section-6:after{
-    background-image: url("../images/elements-4.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
     height: 532.34px;
     width: 1920px;
     bottom: -50px;
@@ -2170,7 +2170,7 @@
     z-index: 0 !important;
   }
   .main-roadmap:before{
-    background-image: url("../images/elements-5.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366582971d5e97a719ad502_elements-5.png");
     height: 440.34px;
     width: 100px;
     left: -260px;
@@ -2179,7 +2179,7 @@
     z-index: 0 !important;
   }
   .section-9:before{
-    background-image: url("../images/elements-6.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/63665a52bcb48576b2544056_elements-6.png");
     height: 440.34px;
     width: 100px;
     right: -308px;
@@ -2188,7 +2188,7 @@
     z-index: 0 !important;
   }
   .section-5:after{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     left: -250px;
@@ -2630,28 +2630,28 @@
     z-index: 2;
   }
   #story:before{
-    background-image: url("../images/elements-1.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366516e125b7dd73a801d1f_elements-1.png");
     height: 437px;
     width: 252.67px;
     left: 0;
     bottom: 0;
   }
   #connector:before{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     left: 100px;
     bottom: 0;
   }
   .oppprtunity:before{
-    background-image: url("../images/elements-3.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
     height: 100px;
     width: 252.67px;
     right: 0;
     top: -50px;
   }
   .oppprtunity:after, .bth-section:after{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     right: -250px;
@@ -2659,7 +2659,7 @@
     transform: rotate(90deg);
   }
   .metaverse:before{
-    background-image: url("../images/elements-3.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
     height: 100px;
     width: 252.67px;
     right: 122px;
@@ -2667,7 +2667,7 @@
     transform: rotate(90deg);
   }
   .metaverse:after{
-    background-image: url("../images/elements-4.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
     height: 532.34px;
     width: 1920px;
     bottom: -50px;
@@ -2675,7 +2675,7 @@
     z-index: 0 !important;
   }
   .section-6:after{
-    background-image: url("../images/elements-4.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
     height: 532.34px;
     width: 1920px;
     bottom: -50px;
@@ -2683,7 +2683,7 @@
     z-index: 0 !important;
   }
   .main-roadmap:before{
-    background-image: url("../images/elements-5.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366582971d5e97a719ad502_elements-5.png");
     height: 440.34px;
     width: 100px;
     left: -260px;
@@ -2692,7 +2692,7 @@
     z-index: 0 !important;
   }
   .section-9:before{
-    background-image: url("../images/elements-6.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/63665a52bcb48576b2544056_elements-6.png");
     height: 440.34px;
     width: 100px;
     right: -308px;
@@ -2701,7 +2701,7 @@
     z-index: 0 !important;
   }
   .section-5:after{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     left: -250px;
@@ -3041,28 +3041,28 @@
     z-index: 2;
   }
   #story:before{
-    background-image: url("../images/elements-1.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366516e125b7dd73a801d1f_elements-1.png");
     height: 437px;
     width: 252.67px;
     left: 0;
     bottom: 0;
   }
   #connector:before{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     left: 100px;
     bottom: 0;
   }
   .oppprtunity:before{
-    background-image: url("../images/elements-3.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
     height: 100px;
     width: 252.67px;
     right: 0;
     top: -50px;
   }
   .oppprtunity:after, .bth-section:after{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     right: -250px;
@@ -3070,7 +3070,7 @@
     transform: rotate(90deg);
   }
   .metaverse:before{
-    background-image: url("../images/elements-3.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636654f826b9aff0e2379200_elements-3.png");
     height: 100px;
     width: 252.67px;
     right: 122px;
@@ -3078,7 +3078,7 @@
     transform: rotate(90deg);
   }
   .metaverse:after{
-    background-image: url("../images/elements-4.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
     height: 532.34px;
     width: 1920px;
     bottom: -50px;
@@ -3086,7 +3086,7 @@
     z-index: 0 !important;
   }
   .section-6:after{
-    background-image: url("../images/elements-4.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
     height: 532.34px;
     width: 1920px;
     bottom: -50px;
@@ -3094,7 +3094,7 @@
     z-index: 0 !important;
   }
   .main-roadmap:before{
-    background-image: url("../images/elements-5.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/6366582971d5e97a719ad502_elements-5.png");
     height: 440.34px;
     width: 100px;
     left: -260px;
@@ -3103,7 +3103,7 @@
     z-index: 0 !important;
   }
   .section-9:before{
-    background-image: url("../images/elements-6.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/63665a52bcb48576b2544056_elements-6.png");
     height: 440.34px;
     width: 100px;
     right: -308px;
@@ -3112,7 +3112,7 @@
     z-index: 0 !important;
   }
   .section-5:after{
-    background-image: url("../images/elements-2.png");
+    background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636653fcc4e75f71a3f7b667_elements-2.png");
     height: 100px;
     width: 252.67px;
     left: -250px;
