@@ -3087,7 +3087,8 @@
     .metaverse:after{
       background-image: url("https://uploads-ssl.webflow.com/6359eaf2a69e5f187674a7e9/636656358bef74c1b9b5fba7_elements-4-p-1600.png");
       height: 532.34px;
-      width: 1920px;
+      width: 100%;
+      background-size: cover;
       bottom: -50px;
       transform-origin: left top;
       z-index: 0 !important;
