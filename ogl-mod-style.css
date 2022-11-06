@@ -2718,8 +2718,8 @@
       background-size: contain;
     }
     .wrapper-1920{
-        width: 1400px !important;
-        margin: auto !important;
+        width: 1400px;
+        margin: auto;
     }
   }
   
@@ -3152,9 +3152,9 @@
     
     /* ultra wide screen and for highresolution */
   .wrapper-section, #connector .wrapper-section, .footer-wrapper{
-    max-width: 1400px !important;
+    max-width: 1400px;
     margin: auto;
-    width: 100% !important;
+    width: 100%;
   }
   .image-10{
     display: block;
